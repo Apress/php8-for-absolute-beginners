@@ -1,0 +1,62 @@
+/* code listing for blog/css/blog.css */
+form#editor{
+    width: 300px;
+    margin-top:10px;
+    padding:0px;   
+	background-color: #dedede;
+}
+ 
+form#editor label, form#editor input[type='text']{
+    display:block;
+}
+ 
+form#editor #editor-buttons{
+    border:none;
+    text-align:right;
+}
+ 
+form#editor textarea, form#editor input[type='text']{
+    width:90%;
+    margin-bottom:2em;
+}
+ 
+form#editor textarea{
+    height:10em;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>

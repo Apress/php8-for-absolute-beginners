@@ -1,0 +1,11 @@
+nav {
+    background-color: #CCCCDE;
+    padding-top: 10px;    
+}
+nav a{
+    display:inline-block;
+    text-decoration:none;
+    color: #000;
+    margin-left: 10px;
+}
+nav a:hover{text-decoration: underline;}
